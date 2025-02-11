@@ -15,7 +15,7 @@ let proID;
 localStorage.Category != null ? CategoryArry = JSON.parse(localStorage.Category) : CategoryArry = [];
 localStorage.Product != null ? ProductArry = JSON.parse(localStorage.Product) : ProductArry = [];
 
-//Svae Category
+
 function SaveCategory() {
 
     let objCategory = {
@@ -31,12 +31,11 @@ function SaveCategory() {
     CountCategory();
 }
 
-//Rest Category
 function Rest() {
     category.value = '';
 }
 
-//show Data 
+ 
 function ShowCategory() {
 
     let item = '';
@@ -48,7 +47,7 @@ function ShowCategory() {
     }
     ddlcategory.innerHTML = item;
 }
-//Show Table Category
+
 
 function ShowTableCategory() {
 
@@ -74,7 +73,7 @@ function ShowTableCategory() {
 
 }
 
-//Delete Category
+
 
 function DeleteCategory(id) {
 
@@ -89,7 +88,7 @@ function DeleteCategory(id) {
 
 }
 
-//Count Category
+
 
 function CountCategory() {
 
@@ -97,7 +96,7 @@ function CountCategory() {
 
 }
 
-//Validation Category
+
 
 function ValidationCategory() {
 
@@ -115,8 +114,8 @@ function ValidationCategory() {
 }
 
 
-////////////////////////////////////////////////////
-//Get Total
+
+
 function GetTotal() {
 
     if (price.value != 0) {
@@ -133,7 +132,6 @@ function GetTotal() {
     }
 }
 
-//Svae Product
 
 function SaveProduct() {
 
@@ -161,7 +159,6 @@ function SaveProduct() {
     GetTotal();
 }
 
-//Rest Data
 function Rest() {
 
     ddlcategory.options[ddlcategory.selectedIndex].text = "Select Category........";
@@ -174,7 +171,7 @@ function Rest() {
     document.getElementById('btnSave').className = 'btn btn-success w-25';
 }
 
-//show Table
+
 
 function ShowTableProduct() {
 
@@ -207,7 +204,7 @@ function ShowTableProduct() {
 }
 
 
-//Delete Product
+
 
 function DeleteProduct(id) {
     if (confirm('Are You Sur From Deleted') == true) {
@@ -218,9 +215,6 @@ function DeleteProduct(id) {
     }
 }
 
-
-
-//Edit Product
 
 function EditProduct(id) {
 
@@ -237,23 +231,10 @@ function EditProduct(id) {
     document.getElementById('btnSave').className = 'btn btn-info w-25';
 }
 
-
-
-
-
-
-
-//Count Product
-
 function CountProduct() {
 
     document.getElementById('countpro').innerHTML = `-TotalPro (${ProductArry.length})`;
 }
-
-
-
-
-//validation Product
 
 function ValidationProduct() {
     let lbcate = document.getElementById('lbcate');
@@ -322,9 +303,6 @@ function ValidationProduct() {
         SaveProduct();
 
     }
-
-
-
 
     return valid;
 }
