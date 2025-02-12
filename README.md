@@ -1,12 +1,14 @@
 Live Demo at https:
      
 ![preview img](/CRUD1.png)
+<hr>
 
 CRUD Project 🛠️
 
 Description 📜
 
 This is a CRUD (Create, Read, Update, Delete) web application built using HTML, CSS, and JavaScript. The project demonstrates how to manage and manipulate data dynamically in a web environment without relying on a backend database.
+<hr>
 
 Features ✨
 
@@ -21,6 +23,7 @@ Features ✨
 💾 Local Storage: Stores data persistently in the browser.
 
 📱 Responsive Design: Fully optimized for different screen sizes.
+<hr>
 
 Technologies Used 🖥️
 
@@ -29,3 +32,8 @@ Technologies Used 🖥️
 🎨 CSS3: For styling and layout.
 
 ⚡ JavaScript (Vanilla JS): For dynamic functionalities and CRUD operations.
+<hr>
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests with improvements.
