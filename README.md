@@ -37,3 +37,15 @@ Technologies Used 🖥️
 🤝 Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests with improvements.
+<hr>
+- Contact
+
+For any inquiries, suggestions, or feedback, reach out via:
+
+ LinkedIn: www.linkedin.com/in/mohammed-saeed-b8a5ba19b
+
+ Email: mohamedsaied4556@gmail.com
+
+ Phone: 01147534345
+
+ WhatsApp: 01147534345
